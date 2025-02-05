@@ -38,6 +38,6 @@ public class MemoController {
 
     @DeleteMapping("/memos/{memoId}")
     public void delete(@PathVariable Long memoId) {
-        memoService.deleteById();
+        memoService.deleteById(memoId);
     }
 }

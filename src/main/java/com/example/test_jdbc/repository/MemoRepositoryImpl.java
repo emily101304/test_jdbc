@@ -3,7 +3,7 @@ package com.example.test_jdbc.repository;
 import com.example.test_jdbc.entity.Memo;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import com.example.jdbc.entity.Memo;
+import com.example.test_jdbc.entity.Memo;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 
